@@ -1,14 +1,14 @@
-<ion-header>
+<ion-header class="constant-theme">
   <ion-navbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
+    <ion-title>Fridge App</ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+<ion-content>
+  <ion-tabs>
+    <ion-tab tabIcon="pizza" [root]="tab1"></ion-tab>
+    <ion-tab tabIcon="basket" color="danger" [root]="tab3"></ion-tab>
+    <ion-tab tabIcon="alert" color="danger" [root]="tab2"></ion-tab>
+    <ion-tab tabIcon="cart" color="danger" [root]="tab4"></ion-tab>
+  </ion-tabs>
 </ion-content>

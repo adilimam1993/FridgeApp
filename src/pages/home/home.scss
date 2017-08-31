@@ -1,3 +1,20 @@
 page-home {
 
+  .constant-theme{
+    background-color:black;
+    color:white;
+  }
+
+ion-title{
+  padding-left:32%;
+  padding-right:32%;
+  background-color:transparent;
+}
+
+  .wrapper{
+    background-image: url("../../assets/img/background.jpg");
+    height:100%;
+    width:100%;
+    color:white;
+  }
 }
