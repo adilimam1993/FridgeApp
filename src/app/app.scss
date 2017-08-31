@@ -14,3 +14,27 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+
+.wrapper{
+  background-image: url("../assets/img/background.jpg");
+  height:100%;
+  width:100%;
+  color:white;
+}
+
+.item-custom{
+  background-color: transparent;
+  ion-label{
+    color:chartreuse!important;
+  }
+}
+
+.searchbar-input{
+  background:transparent;
+}
+
+.input-custom{
+  color:white;
+}
+
+

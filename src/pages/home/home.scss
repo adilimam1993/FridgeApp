@@ -1,5 +1,4 @@
 page-home {
-
   .constant-theme{
     background-color:black;
     color:white;
@@ -11,10 +10,9 @@ ion-title{
   background-color:transparent;
 }
 
-  .wrapper{
-    background-image: url("../../assets/img/background.jpg");
-    height:100%;
-    width:100%;
+  .custom-header{
+    background-color: #2d2d2d;
     color:white;
   }
+
 }

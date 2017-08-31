@@ -1,12 +1,17 @@
 page-my-fridge {
-  .wrapper{
-    background-image: url("../../assets/img/background.jpg");
-    height:100%;
-    width:100%;
-    color:white;
-  }
+
   .custom{
     background-color: transparent;
     color:chartreuse;
   }
+
+  .custom-header{
+     background-color: transparent;
+     color:white;
+  }
+
+  .badge-color{
+
+  }
+
 }
